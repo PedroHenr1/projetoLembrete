@@ -1003,6 +1003,7 @@ UC/10
     </sequence>
     <table id="35" parent="17" name="carrinho_cliente">
       <ObjectId>17039</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>655</StateNumber>
     </table>
