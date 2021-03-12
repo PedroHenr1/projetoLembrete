@@ -20,20 +20,24 @@ public class User
     @Column(name = "user_id")
     private Long userId;
 
-    @NotEmpty
+    @NotNull
     @Column(name = "user_name")
     private String userName;
 
-    @NotEmpty
+    @NotNull
     @Column(name = "user_password")
     private String userPassword;
 
-    @NotEmpty
+    @NotNull
     @Column(name = "user_email")
     private String userEmail;
 
     @Column(name = "enable")
     private boolean enable;
+
+    @NotNull
+    @Column(name = "user_cpf")
+    private String userCpf;
 
 
     //Ignorar variavel users em roles
