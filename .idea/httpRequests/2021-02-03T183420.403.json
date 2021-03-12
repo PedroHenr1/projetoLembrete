@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-02-03T21:34:19.902+00:00",
+  "status": 403,
+  "error": "Forbidden",
+  "message": "Access Denied",
+  "path": "/user/test"
+}
